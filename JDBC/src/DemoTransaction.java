@@ -20,7 +20,7 @@ public class DemoTransaction {
 			int row_inserted=st.executeUpdate(insertData);
 			if(row_inserted>0){
 				con.commit();
-				System.out.println("Rows inserted");
+				System.out.println("Rows inserted successfully");
 			}
 			else
 				System.out.println("Sorry");
